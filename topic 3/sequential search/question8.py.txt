@@ -1,0 +1,7 @@
+names = ["Anu", "Bala", "Charan", "Deepa", "Esha", "Farhan"]
+search_name = "Deepa"
+
+for i in range(len(names)):
+    if names[i] == search_name:
+        print("Name found at position", i + 1)
+        break
